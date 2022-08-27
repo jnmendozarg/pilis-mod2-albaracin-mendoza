@@ -1,181 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expovinis XV</title>
+    <!--Estilos CSS-->
     <link rel="stylesheet" href="style.css">
-    <title>Feria de la plantas</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="./asset/icon/favicon.ico">
     <!--Iconos-->
     <script src="https://kit.fontawesome.com/c9a546b143.js" crossorigin="anonymous"></script>
+    <!--Alert modal-->
+    <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
 </head>
+
 <body>
-    <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
-    <header class="mainheader">
-        
-        <!--::::Barra de navegacion::::-->
-        <nav id="navbar">
+    <header>
+        <!-- NAVBAR -->
+        <nav id="navbar" class="navbar">
             <div class="container">
-              <h1 class="logo"><a href="index.html">Portfolio <span class="secondary">PM</span> </a></h1>
-              <ul>
-                <li><a href="#about">quienes somos</a></li>
-                <li><a href="#event">evento</a></li>
-                <li><a href="#contact">contacto</a></li>
-              </ul>
+                <div class="logo">
+                    <a href="#home">
+                        <img src="./asset/img/logo3.png" alt="logo-vino">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="#about">nosotros</a></li>
+                    <li><a href="#event">evento</a></li>
+                    <li><a href="#registration">registrarse</a></li>
+                    <li><a href="#patrocinador-section">contacto</a></li>
+                </ul>
             </div>
         </nav>
-        <!--::::Barra de navegacion::::-->
-
-        <!--Banner-->
-       <div id="showcase">
-              <div class="container">
-                  <div class="showcase-img">
-                    <img src="https://i.ibb.co/Yc13gjV/showcase.png" alt="showcase" />
-                  </div>
-                  <div class="showcase-text">
-                      <h1><span class="title-one">Titulo del evento</span><br>
-                          <span class="title-two">Desarrollo</span><br>
-                          Direccion<br>planificacion<br>control
-                      </h1>
-                      <p class="large">qqLorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
-                          venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim.</p>
-                  </div>
-              </div>
-        </div>
-        <!--Banner-->
-    </header>
-    
-    <!--Borrar-->
-    <section id="about">
-        <div class="container">
-            <div class="about-title">
-                <h2>Quien soy</h2>
+        <!--::::HOME::::-->
+        <div class="home" id="home">
+            <div class="info">
+                <h1>Expovinis edicion XV</h1>
+                <h2>Martes 25 de mayo</h2>
+                <p>Ciudad cultural, San Salvador de Jujuy</p>
+                <p>La Feria del Vino ofrece ser más que un evento, buscamos trabajar en conjunto con Organizadores,
+                    productores, y comerciantes para promover todo ámbito que se desarrolle en torno a la producción de
+                    vino a nivel provincial y nacional.</p>
+                <a href="#registration">Registrarse</a>
             </div>
-            <div class="about-description">
-                <p class="large">GENARO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus sed facilisi ultrices
-                    tincidunt sed turpis et dictumst justo. Tempor venenatis magnis consequat, accumsan. Aliquet elit velit
-                    fringilla nulla nam. Dui purus quisque a dictumst odio molestie. Vitae nullam quis odio
-                <p>Cras non dictum ullamcorper vel id tincidunt. Egestas risus, tortor sagittis, ornare morbi. Dictum in a
-                    pulvinar elit. Sollicitudin cras quis sapien in venenatis egestas elementum. A augue nisi fames lectus
-                    penatibus facilisis elementum, sapien praesent. Eu accumsan facilisi orci pellentesque. Massa dictumst
-                    id mattis lectus est elementum quisque ornare. Vulputate accumsan arcu ut urna, ac, dapibus nisl.</p>
-                <p>Risus gravida justo, ac eu nec a ullamcorper. Volutpat ac vel egestas aliquet nullam quam. Faucibus diam
-                    ac est facilisis. Sed nec iaculis tellus fames at lacus, nunc, proin. Ante tellus est risus, lectus leo
-                    feugiat. Eget facilisis </p>
-    
-                <p>Fringilla aliquet habitasse felis, in facilisis donec ut scelerisque. Sit ultrices nunc, eu cursus id est
-                    pellentesque. Nunc pellentesque ultricies ante pharetra magna quis massa turpis. Egestas ullamcorper
-                    quam amet vulputate eget platea. Nisi pretium tellus consectetur faucibus aenean imperdiet amet
-                    adipiscing in. Vestibulum pretium, suspendisse feugiat in ultricies gravida pharetra aliquet. Proin
-                    commodo et et adipiscing viverra ultrices pretium in.</p>
+        </div>
+    </header>
+ 
+    <!--seciont id="event" class="event wavw"-->
+    <!--::::SOBRE EL EVENTO::::-->
+    <section id="event">
+        <div class="event-contenido">
+            <div class="event-texto">
+                <h2 class="event-subtitulo">Sobre el evento</h2>
+                <p class="event-descripcion">
+                    La misión del evento es impulsar la actividad productiva y comercial vitivinícola Argentina,
+                    incluyendo bodegas de
+                    renombre, productores independientes y producción artesanal, que a lo largo del año han contribuido
+                    a poner a
+                    Argentina nuevamente en la escena mundial.
+                </p>
+                <p class="event-descripcion">
+                    Viñedos y Bodegas que se hacen a pulmón, con dedicación y esmero, luchando dia a dia con la mirada
+                    puesta en la
+                    cima.
+                </p>
+            </div>
+            <div class="event-video">
+                <iframe src="https://www.youtube.com/embed/9L7rQ33lprE" width="720" height="350" class="video"></iframe>
             </div>
         </div>
     </section>
 
-    <!--::::Pie de página::::-->
-    <section id="contact">
+    <!--::::QUIENES SOMOS::::-->
+    <section id="about">
+        <h2>Los organizadores</h2>
+        <div class="nosotros">
+            <div class="aboutme-one">
+                <div class="aboutme-one-image">
+                    <img src="./asset/img//avatar2.png" alt="">
+                </div>
+                <div class="aboutme-one-text">
+                    <h3>Nicolas Mendoza - Agricultor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, rem? Sequi fuga nisi repellendus
+                        ratione repellat aliquam quibusdam perspiciatis dolorum ipsam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, rem? Sequi fuga nisi repellendus
+                        ratione repellat aliquam quibusdam perspiciatis dolorum ipsam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, rem? Sequi fuga nisi repellendus
+                        ratione repellat aliquam quibusdam perspiciatis dolorum ipsam.</p>
+                </div>
+               
+            </div>
+            <div class="aboutme-two">
+                <div class="aboutme-two-image">
+                    <img src="./asset/img/avartar1.png" alt="">
+                </div>
+                <div class="aboutme-two-text">
+                    <h3>Nahuel Albarracin - Comerciante</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, rem? Sequi fuga nisi repellendus
+                        ratione repellat aliquam quibusdam perspiciatis dolorum ipsam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, rem? Sequi fuga nisi repellendus
+                        ratione repellat aliquam quibusdam perspiciatis dolorum ipsam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, rem? Sequi fuga nisi repellendus
+                        ratione repellat aliquam quibusdam perspiciatis dolorum ipsam.</p>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+    <!--::::BOTON WHATSAPP::::-->
+    <a href="https://walink.co/7f7c19" class="whatsapp" target="_blank"> <i
+            class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
+
+    <!--::::REGISTRO::::-->
+    <section id="registration">
         <div class="container">
             <!--Fomulario-->
-            <div class="contact-form">
+            <div class="registration-form">
                 <div class="">
-                    <h3>Formulario de registro</h3>
-                    <p>Sumate al encuentro para potenciar el comercio local.</p>
+                    <h3>REGISTRATE AHORA!!!</h3>
+                    <p>Completa el formulario y reserva tu lugar</p>
                 </div>
-                <form action="">
+                <form action="" id="formulario">
                     <div class="form-group">
-                      <label for="name">Comercio:</label>
-                      <input class="form-control" type="text" placeholder="Ingresar nombre del comersio">
+                        <label for="name">Comercio:</label>
+                        <input class="form-control" type="text" id='business'
+                            placeholder="Ingresar nombre del comersio">
                     </div>
                     <div class="form-group">
-                      <label for="name">Titular:</label>
-                      <input class="form-control" type="email" placeholder="Ingresar nombre del titular">
+                        <label for="name">Titular:</label>
+                        <input class="form-control" type="email" id='name' placeholder="Ingresar nombre del titular">
                     </div>
                     <div class="form-group">
-                      <label for="name">Celular:</label>
-                      <input class="form-control" type="number" placeholder="Ingresar numero de celular">
+                        <label for="name">Celular:</label>
+                        <input class="form-control" type="number" id='phone' placeholder="Ingresar numero de celular">
                     </div>
-                    <button class="btn btn-light">Enviar</button>
+                    <button class="btn btn-light" id="enviar">Enviar</button>
                 </form>
-                <p>Nos estaremos contactando</p>
+                <p>Revisaremos tu solicitud y con registrationaremos a la brevedad mediante un correo electronico.</p>
             </div>
             <!--Ubicacion google-->
-            <div class="contact-title">
+            <div class="registration-title">
                 <h3>Como llegar al evento:</h3>
             </div>
             <div class="ubicacion">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.6667426492363!2d-65.33348658501039!3d-24.183417684377638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0ee2033f07f3%3A0xc77a811c6a4b0561!2sCiudad%20Cultural!5e0!3m2!1ses-419!2sar!4v1661200633332!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.6667426492363!2d-65.33348658501039!3d-24.183417684377638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0ee2033f07f3%3A0xc77a811c6a4b0561!2sCiudad%20Cultural!5e0!3m2!1ses-419!2sar!4v1661200633332!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
-    <!--::::Pie de página::::-->
 
-    <!--::::Temperatura::::-->
-    <section id="clima">
-        <h3>Temperatura para ese dia:</h3>
-        <div class="container">
-            <div id="caja1">
-                <h4 id="temperature-valor"></h4>
-                <h4 id="temperature-description"></h4>
+    <!--AUSPICIANTES-->
+    <section id="patrocinador-section">
+        <h1>Nuestros auspiciantes:</h1>
+        <div id="patrocinadors">
+            <div class="patrocinador-item">
+                <a href="http://municipalidaddepalpala.gob.ar/" target="_blank">
+                    <img src="./asset/img/gobierno-palpala.png" alt="municipalidad de palpala">
+                </a>
             </div>
-            <div id="caja2">
-                <h4 id="ubicacion"></h4>
-                <!--Logo temperatura-->
-                <img id="icono" src="" alt="" height="50" width="50">
+            <div class="patrocinador-item">
+                <a href="http://jujuy.gob.ar/home/" target="_blank">
+                    <img src="./asset/img/gobierno-jujuy.png" alt="gobierno de jujuy">
+                </a>
             </div>
-            <div id="caja3">
-                <h4 id="velocity-viento"></h4>
+            <div class="patrocinador-item">
+                <a href="http://190.52.39.246:10280/inicio-edep/" target="_blank">
+                    <img src="./asset/img/edep.png" alt="ministerio de desarrollo">
+                </a>
+            </div>
+            <div class="patrocinador-item">
+                <a href="https://www.fi.unju.edu.ar/" target="_blank">
+                    <img src="./asset/img/facultad.png" alt="facultad de ingenieria">
+                </a>
+            </div>
+            <div class="patrocinador-item">
+                <a href="https://www.facebook.com/uejujuy/?fbclid=IwAR3f9f2DtSEZWWivlhG23v25iIlaMzk3zDJjm-96nINYnl_RKnTr0hWuoJU"
+                    target="_blank">
+                    <img src="./asset/img/union-empresarios.png" alt="union empresarios de jujuy">
+                </a>
             </div>
         </div>
-        <p>Temperatura:</p>
-        <p> </p>
     </section>
 
-    <!--::::Pie de página::::-->
+    <!--::::FOOTER::::-->
     <footer class="footer-distributed">
-        <!--::::Seccion de contacto::::-->
-        <div class="group-1">
-            <div class="footer-left">
-                <img src="./asset/img/gobierno-jujuy.png" alt="" srcset="">
-                <p>©2022 Gobierno de la Provincia de Jujuy</p>
-            </div>
-            <div class="footer-center">
-                <p class="contact-footer">Contacto</p>
-                <div>
-                    <i class="fa fa-map-marker"></i>
-                    <p><span>San Martin 123</span> San Salvador de Jujuy</p>
+        <!--::::DATOS DEL CLIMA::::-->
+        <div class="footer-left">
+            <h4>Temperatura actual en Ciudad Cultural</h4>
+            <div class="container2">
+                <div id="box-left">
+                    <h4 id="temperatura-valor"></h4>
                 </div>
-                <div>
-                    <i class="fa fa-phone"></i>
-                    <p>+3884610915</p>
-                </div>
-                <div>
-                    <i class="fa fa-envelope"></i>
-                    <p><a href="mailto:support@company.com">gobierno@jujuy.gob.ar</a></p>
-                </div>
-            </div>
-            <div class="footer-right">
-                <p class="footer-company-about">
-                    <span>Redes sociales</span>
-                </p>
-                <div class="footer-icons social">
-                    <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <div id="box-right">
+                    <h4 id="ubicacion"></h4>
+                    <!--Logo temperatura-->
+                    <img id="icono" src="" alt="" height="50" width="50">
+                    <h4 id="temperatura-description"></h4>
                 </div>
             </div>
         </div>
-        <!--::::Desarrollador por...::::-->
-        <div class="group-2">
+        <!--::::CONTACTO::::-->
+        <div class="footer-center">
+            <h4>Contacto</h4>
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Av de los estudiantes</span> San Salvador de Jujuy</p>
+            </div>
+            <div>
+                <i class="fa fa-phone-volume"></i>
+                <p><a href="tel:5554280940">0388 - 4241876</a></p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">gobierno@jujuy.gob.ar</a></p>
+            </div>
+        </div>
+        <!--::::REDES SOCIALES::::-->
+        <div class="footer-right">
+            <h4>Redes sociales</h4>
+            <div class="footer-icons social">
+                <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <!--::::DESARROLLADO POR::::-->
+        <div class="footer-company">
             <small>2022 - Sitio web desarrollador por <span><a href="">IOperativa</a> </span></small>
         </div>
     </footer>
-    <!--::::Pie de página::::-->
 
     <!--Javascript-->
     <script src="main.js"></script>
-</body>
 
+</body>
 </html>
